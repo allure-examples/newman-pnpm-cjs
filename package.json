@@ -1,0 +1,12 @@
+{
+  "name": "newman-pnpm-cjs",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "newman run tests/sample.json -r allure"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-allure": "^3.0.3"
+  }
+}
